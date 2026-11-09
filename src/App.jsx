@@ -5,7 +5,7 @@ import Saludo from "./ejemplos/Saludo";
 import MostrarOcultar from "./ejemplos/MostrarOcultar";
 import ListaTareas from "./ejemplos/ListaTareas";
 
-// Componente Temporizador creado directamente aquí para evitar errores de importación
+
 function Temporizador() {
   const [segundos, setSegundos] = useState(10);
   const [activo, setActivo] = useState(false);

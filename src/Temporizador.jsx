@@ -13,7 +13,7 @@ function Temporizador() {
       setSegundos(segundos - 1);
     }, 1000);
 
-    // Función de limpieza para cancelar el timer si se pausa o cambia el estado
+
     return () => clearTimeout(espera);
   }, [activo, segundos]);
 
